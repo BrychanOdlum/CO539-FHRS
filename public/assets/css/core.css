@@ -1,0 +1,81 @@
+html, body {
+	height: 100% !important;
+	margin: 0px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background: #f3f3f3;
+	position: relative;
+}
+
+
+.widthContainer {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+
+
+
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 45px;
+	background: #fff;
+	border-bottom: solid 1px #bbb;
+}
+header .widthContainer {
+	height: 45px;
+}
+header .widthContainer > div {
+	display: inline-block;
+	float: left;
+}
+
+header #hLogo {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 45px;
+	font-size: 20px;
+	margin-right: 25px;
+	color: #f36;
+}
+
+section#dataTable {
+
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 45px;
+	background: #fff;
+	border-top: solid 1px #bbb;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+}
+
+footer p {
+	margin: 0px;
+	line-height:45px;
+}
+footer p a {
+	color: #00c4ff;
+	text-decoration: none;
+	font-weight:400;
+}
